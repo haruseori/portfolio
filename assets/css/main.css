@@ -1521,6 +1521,7 @@ input, select, textarea {
 
 	section, article {
 		margin-bottom: 3em;
+		text-align: center
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -1529,11 +1530,13 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 1.5em 0;
+		text-align: center
 	}
 
 		header > p {
 			margin: 0.5em 0 0 0;
 			color: #aaa;
+			text-align: center
 		}
 
 		@media screen and (max-width: 736px) {
